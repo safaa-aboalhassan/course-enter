@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    
+  <form class="container fs-3">
+    <h2 class="fst-italic text-primary mt-2 text-center">COURSE ENTER Data</h2>
+
+    <label for="exampleInputUsername" class="form-label text-primary">user name</label>
+    <input type="text" class="form-control" id="exampleInputUsername">
+    <small id="usernameMessage" class="text-danger fw-bold"></small>
+    
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label text-primary">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+      <small id="passwordMessage" class="text-danger fw-bold"></small>
+    </div>
+
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label text-primary">Email address</label>
+      <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small id="emailMessage" class="text-danger fw-bold"></small>
+      <div id="emailHelp" class="form-text fs-5 text-danger">We'll never share your email with anyone else.</div>
+    </div>
+    
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label text-primary" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="button" onclick="validate()" class="btn btn-primary fst-italic mt-1 fs-4">save</button>
+  </form>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
